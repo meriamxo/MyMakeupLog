@@ -10,12 +10,12 @@
 
 | Column | Type | Units | How I Record It |
 |---|---|---|---|
-| date | Date | YYYY-MM-DD | Date of the makeup session |
-| makeup_type | Text | Category | Natural, soft glam or full glam |
-| time_spent_minutes | Integer | Minutes | Measure with a timer |
-| products_used | Integer | Number of products | Count distinct products used |
-| occasion | Text | Category | College, work, going out or home |
-| satisfaction_rating | Integer | Scale of 1 to 5 | Rate my finished makeup look |
+| Date | Date | YYYY-MM-DD | Date of the makeup session |
+| MakeupType | Text | Category | Natural, soft glam or full glam |
+| TimeSpentMinutes | Integer | Minutes | Measure with a timer |
+| ProductsUsed | Integer | Number of products | Count distinct products used |
+| Occasion | Text | Category | College, work, going out or home |
+| SatisfactionRating | Integer | Scale of 1 to 5 | Rate my finished makeup look |
 
 ## Description of the Project
 
