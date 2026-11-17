@@ -11,7 +11,7 @@
 | Column | Type | Units | How I Record It |
 |---|---|---|---|
 | Date | Date | YYYY-MM-DD | Date of the makeup session |
-| MakeupType | Text | Category | Natural, soft glam or full glam |
+| MakeupType | Text | Category | Natural Glam or Full Glam |
 | TimeSpentMinutes | Integer | Minutes | Measure with a timer |
 | ProductsUsed | Integer | Number of products | Count distinct products used |
 | Occasion | Text | Category | College, work, going out or home |
