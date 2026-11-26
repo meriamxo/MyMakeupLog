@@ -45,6 +45,12 @@ cursor.execute("SELECT * FROM makeup_log")
 for row in cursor.fetchall():
     print(row)
 
+cursor.execute("SELECT AVG(TimeSpentMinutes) FROM makeup_log")
+
+average = cursor.fetchone()[0]
+
+print("Average makeup time:", round(average, 2), "minutes")
+
 conn.close()
 
 print("Makeup data added successfully")
